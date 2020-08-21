@@ -2,6 +2,9 @@ let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget
 let counts = {};
 
 // your code here
-for ()
+let characters = par.toLowerCase().split("");
 
-console.log(counts);
+for (i = 0; i < characters.length; i++){
+    if (characters[i] != ' ')
+}
+

@@ -2,10 +2,12 @@ var people = ['Lebron', 'Aaliyah', 'Diamond', 'Dominique', 'Aliyah', 'Jazmin', '
 
 //loop here to find wally, use the if conditionals
 
-for (i = 0; i < people.length; i++) {
-
+for (let i = 0; i < people.length; i++) {
+    if (people == 'wally'){
+        console.log('Wally');
+        continue
+    }
     
-     console.log(people[i]);
+     console.log(i);
      
-
 }
