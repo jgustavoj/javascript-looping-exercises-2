@@ -10,4 +10,4 @@ function sumTheElements(theArray){
 
 	return total;
 }
-// console.log(sumTheElements([2,5]));
+//console.log(sumTheElements([2,5,5,4,5]));

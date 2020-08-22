@@ -236,7 +236,7 @@
         {
             "slug": "09.1-forEach-loop",
             "title": "09.1-forEach-loop",
-            "done": false,
+            "done": true,
             "path": "exercises/09.1-forEach-loop",
             "translations": [
                 "es",
@@ -247,7 +247,7 @@
         {
             "slug": "10.1-Everything-is-awesome",
             "title": "10.1-Everything-is-awesome",
-            "done": false,
+            "done": true,
             "path": "exercises/10.1-Everything-is-awesome",
             "translations": [
                 "es",
@@ -258,7 +258,7 @@
         {
             "slug": "11-Do-while",
             "title": "11-Do-while",
-            "done": false,
+            "done": true,
             "path": "exercises/11-Do-while",
             "translations": [
                 "es",
