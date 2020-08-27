@@ -12,4 +12,4 @@ const mergeArrays = (firstArray, secondArray) => {
     return new_array;
 }
 
-console.log(mergeArrays(chunk_one, chunk_two));
+// console.log(mergeArrays(chunk_one, chunk_two));
