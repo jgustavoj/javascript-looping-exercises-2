@@ -2,9 +2,15 @@ let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget
 let counts = {};
 
 // your code here
-let characters = par.toLowerCase().split("");
 
-for (i = 0; i < characters.length; i++){
-    if (characters[i] != ' ')
+for (i = 0; i < par.length; i++){
+    console.log(i);
+    
 }
+
+
+//console.log(counts);
+
+
+// let characters = par.toLowerCase().split("");
 
