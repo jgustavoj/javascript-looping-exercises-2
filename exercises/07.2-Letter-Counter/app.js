@@ -3,14 +3,11 @@ let counts = {};
 
 // your code here
 
-for (i = 0; i < par.length; i++){
-    console.log(i);
-    
+function letters(){
+    for (let i = 0; i < par.length; i++){
+        
+    }
 }
+letters()
 
-
-//console.log(counts);
-
-
-// let characters = par.toLowerCase().split("");
-
+console.log(counts);
