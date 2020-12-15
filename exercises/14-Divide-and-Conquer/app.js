@@ -22,8 +22,6 @@ let mergeTwoList = (arr) => {
             odd.push(arr[i]);
         }
     }
-    //console.log(odd);
-    //console.log(even);
     newArray.push(odd);
     newArray.push(even);
     console.log(newArray);
