@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://c0a52009-82e9-4195-8661-7b329d834968.ws-us02.gitpod.io",
+    "address": "https://c0a52009-82e9-4195-8661-7b329d834968.ws-us03.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -181,7 +181,7 @@
         {
             "slug": "07.2-Letter-Counter",
             "title": "07.2-Letter-Counter",
-            "done": false,
+            "done": true,
             "path": "exercises/07.2-Letter-Counter",
             "translations": [
                 "es",
