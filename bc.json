@@ -368,7 +368,7 @@
         {
             "slug": "20.2-More-mapping",
             "title": "20.2-More-mapping",
-            "done": false,
+            "done": true,
             "path": "exercises/20.2-More-mapping",
             "translations": [
                 "es",
