@@ -390,7 +390,7 @@
         {
             "slug": "20.4-Map-data-types",
             "title": "20.4-Map-data-types",
-            "done": false,
+            "done": true,
             "path": "exercises/20.4-Map-data-types",
             "translations": [
                 "es",
