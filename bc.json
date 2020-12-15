@@ -170,7 +170,7 @@
         {
             "slug": "07.1-Finding-Wally",
             "title": "07.1-Finding-Wally",
-            "done": false,
+            "done": true,
             "path": "exercises/07.1-Finding-Wally",
             "translations": [
                 "es",
