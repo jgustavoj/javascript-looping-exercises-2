@@ -6,8 +6,11 @@ let people = [
 	{ name: 'Steve', birthDate: new Date(2003,4,24) }
 ];
 
-let simplifier = function(person){
-	return person.name;
+let simplifier = (person) => {
+    let currentDate = new Date();
+    let currentYear = currentDate.getFullYear();
+	return " Hello, my name is " + person.name + " and I am " + `${currentYear - person.birthDate.getUTCFullYear()}` + " years old";
 };
 
 console.log(people.map(simplifier));
+
