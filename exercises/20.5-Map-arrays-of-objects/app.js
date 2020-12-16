@@ -6,11 +6,19 @@ let people = [
 	{ name: 'Steve', birthDate: new Date(2003,4,24) }
 ];
 
-let simplifier = (person) => {
+let simplifier  = function(person) {
     let currentDate = new Date();
-    let currentYear = currentDate.getFullYear();
-	return " Hello, my name is " + person.name + " and I am " + `${currentYear - person.birthDate.getUTCFullYear()}` + " years old";
-};
+    let age =  currentDate.getFullYear() - person.birthDate.getFullYear();
+    let month = currentDate.getMonth() - person.birthDate.getMonth();
+        if (month < 0 || (month === 0 && currentDate.getDate() < person.birthDate.getDate())){
+        age = age - 1;
+        }
+    return (" Hello, my name is " + person.name + " and I am " + age + " years old");
+   
+    };
+let newArray = people.map(simplifier); 
 
-console.log(people.map(simplifier));
+ console.log(newArray);
 
+
+//console.log(people.map(simplifier));

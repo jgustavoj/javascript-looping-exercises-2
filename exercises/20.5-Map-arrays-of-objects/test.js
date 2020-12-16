@@ -44,3 +44,6 @@ test('The output in the console should should look similar but not exactly to th
     let _test = _people.map(_simplifier)
     expect(_buffer).toMatch(_test.map(n => n).join(","));
   });
+
+
+  
