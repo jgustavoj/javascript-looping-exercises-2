@@ -6,6 +6,6 @@ let prepender = function(name){
 
 //let prepender = (name) => `My name is: ` +name;
 //your code here
-newArray = names.map(prepender); 
+let newArray = names.map(prepender); 
 console.log(newArray);
 
