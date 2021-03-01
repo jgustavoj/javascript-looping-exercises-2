@@ -1,5 +1,5 @@
 //you code here
-for(let i=7; i<13; i++){
+
+for(let i=7; i<=12; i++){
     console.log(i);
-    
 }
